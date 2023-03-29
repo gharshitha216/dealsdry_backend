@@ -1,0 +1,48 @@
+.div1{
+ font-size: 50px;
+ color: cadetblue;
+ padding: 60px 0px;
+ text-align: center;
+ background-color: brown;
+}
+.div2{
+    display: flex;
+}
+#one{
+ color: yellow;
+ background-color: blueviolet;
+}
+#two{
+    background-color: black;
+    color: white;
+}
+.div3{
+    display: block;
+}
+#three{
+    color: black;
+    background-color: aliceblue;
+}
+
+/* media queries */
+@media only screen and (max-width:992px){
+    .div1{
+        background-color: gold;
+        font-size: 40px;
+    }
+    .div2{
+        display: block;
+    }
+}
+@media only screen and (max-width:760px){
+    .div1{
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .div1{
+        background-color: blueviolet;
+        font-size: 30px;
+    }
+}
